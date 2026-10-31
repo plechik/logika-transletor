@@ -5,10 +5,26 @@ body {
     background-color: #f0f2f5;
     font-family: 'Inter', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+.git-link {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c939d;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    transition: color 0.2s ease;
+}
+
+.git-link:hover {
+    color: #4a90e2;
+    text-decoration: underline;
 }
 
 .card {
